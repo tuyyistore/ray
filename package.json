@@ -1,0 +1,25 @@
+{
+  "name": "wa-bot-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot - ESM + Baileys + VPS Ready",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@elrayyxml/baileys": "latest",
+    "api-nexray": "latest",
+    "pino": "latest",
+    "pino-pretty": "latest",
+    "dotenv": "latest",
+    "qrcode-terminal": "0.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "esm", "vps"],
+  "author": "",
+  "license": "MIT"
+}
